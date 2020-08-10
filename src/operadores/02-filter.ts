@@ -1,3 +1,7 @@
+
+//FILTER FILTRA LA INFORMACION PARA OBTENER UNA SALIDA DESEADA PUEDE IR ACPMPAÑADO DE OTROS OPERADORES ENCADENADOS
+
+
 import { range, of, from, fromEvent }from 'rxjs';
 import { filter, map }from 'rxjs/operators';
 

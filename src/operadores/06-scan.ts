@@ -1,5 +1,8 @@
+//SCAN EMITE LOS VAORES ACUMULADOS A MEDIDA QUE VAN INGRESANDO NUEVOS VALORES SIN ESPERAR A QUE SE COMPLETE COMO EN REDUCE
+
 import { from } from 'rxjs';
 import { reduce, scan, map } from 'rxjs/operators';
+
 const numeros = [1,2,3,4,5];
 
 // const totalAcumulador = (acc, cur) =>{

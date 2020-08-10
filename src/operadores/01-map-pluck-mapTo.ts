@@ -42,4 +42,5 @@ keyUpPluck$.subscribe( code => console.log('Pluck:', code));
 
 keyUpPluckAnidado$.subscribe( code => console.log('Pluck:', code));
 
+//mapTo mapea la entrada en una salida deseada por ej si entra un nro y se desa que salga una A se le pasa la A por parametro y siempre va a salir ese valor
 keyUpMapTo$.subscribe( code => console.log('MapTo:', code));
